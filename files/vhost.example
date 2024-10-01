@@ -1,0 +1,21 @@
+<VirtualHost *:80>
+	ServerName www.projeto.restaurante.com.br
+	ServerAlias projeto.restaurante.com.br
+	DocumentRoot "C:\Users\Anthony Rafael\Desktop\restaurante"
+	<Directory "C:\Users\Anthony Rafael\Desktop\restaurante">
+		Options Indexes FollowSymLinks Includes ExecCGI
+		AllowOverride All
+		Require all granted 
+	</Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+	ServerName www.projeto.noticias.com.br
+	ServerAlias projeto.noticias.com.br
+	DocumentRoot "C:\Users\Anthony Rafael\Desktop\noticias"
+	<Directory "C:\Users\Anthony Rafael\Desktop\noticias">
+		Options Indexes FollowSymLinks Includes ExecCGI
+		AllowOverride All
+		Require all granted 
+	</Directory>
+</VirtualHost>

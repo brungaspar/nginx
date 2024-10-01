@@ -1,0 +1,8 @@
+---
+- name: Main Playbook
+  hosts: local
+  roles:
+    # - linux-update
+    # - temp
+    - nginx
+
